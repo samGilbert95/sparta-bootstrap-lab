@@ -16,4 +16,8 @@
 .table{
   border: 1px orange;
 }
+
+nav.navbar.navbar-default{
+  margin-bottom: 0px;
+}
  /* Whatfont */
