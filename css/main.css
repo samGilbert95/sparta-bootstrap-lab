@@ -1,0 +1,32 @@
+ul{
+  width: 100%;
+  display:inline-flex;
+  flex-flow: row;
+  border: 1px solid blue;
+}
+
+li{
+  margin-left: 10%;
+  list-style: none;
+}
+
+.jumbo{
+  height: 200px;
+  border: 1px solid green;
+}
+.cards{
+  height: 200px;
+  border: 1px solid red;
+}
+
+.card {
+  height:50px;
+  width: 30%;
+  border: 1px solid pink;
+}
+
+.table{
+  height: 300px;
+  border: 1px orange;
+}
+ /* Whatfont */
