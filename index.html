@@ -6,32 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <style href="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></style>
-  <style src="https://code.jquery.com/jquery-3.3.1.min.js"
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous">
-  </style>
+  crossorigin="anonymous"></script>
+  <script src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js" charset="utf-8"></script>
+
   <title>Bootstrap Lab</title>
 </head>
 
 <body>
   <!-- Navbar Specifications  -->
   <nav class="navbar navbar-default">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
-        <ul class="nav navbar-nav">
-          <a class="navbar-brand" href="#">Sam's Site</a>
-          <li role="presentation"><a href="#">Nav</a></li>
-          <li role="presentation"><a href="#">Nav</a></li>
-          <li role="presentation"><a href="#">Nav</a></li>
-        </ul>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#test" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Sam's Site</a>
       </div>
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+        <div class="collapse navbar-collapse" id="test">
+          <ul class="nav navbar-nav">
+            <li role="presentation"><a href="#">Nav</a></li>
+            <li role="presentation"><a href="#">Nav</a></li>
+            <li role="presentation"><a href="#">Nav</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
   </nav>
   <!-- Jumbotron Specifications -->
@@ -41,11 +50,31 @@
     </div>
   </div>
   <!-- Cards Specifications -->
-  <div class="cards">
-    <div class="card">Card</div>
-    <div class="card">Card</div>
-    <div class="card">Card</div>
+  <div class="container-fluid">
+    <div class="cards">
+      <div class="card">
+        <div class="row text-center">
+          <div class="col-md-2 col-lg-2 col-sm-0 bg-1"></div>
+          <div class="col-md-8 col-lg-8 col-sm-12">
+            <img src="https://fillmurray.com/g/1000/1000" alt="..." class="img-circle">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed ex sed justo pulvinar pharetra. Curabitur ac dolor purus. Pellentesque.</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-sm-0 bg-1"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row text-center">
+          <div class="col-md-2 col-lg-2 col-sm-0 bg-1"></div>
+          <div class="col-md-8 col-lg-8 col-sm-12">
+            <img src="https://fillmurray.com/g/1000/1000" alt="..." class="img-circle">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed ex sed justo pulvinar pharetra. Curabitur ac dolor purus. Pellentesque.</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-sm-0 bg-1"></div>
+        </div>
+      </div>
+    </div>
   </div>
+
   <!-- Table Specifications -->
   <div class="table">
     <table>
