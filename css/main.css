@@ -7,6 +7,35 @@ p{
   margin-top: 20px;
 }
 
+form{
+  text-align: center;
+}
+
+input.form-control{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.list-group-item{
+  position: inherit;
+  height: 40px;
+  display: block;
+  background-color: #fff;
+  padding: 0px;
+  border: 0px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.badge{
+  margin: auto;
+}
+
+button.btn-success{
+  margin-bottom: 10px;
+}
+
 .jumbotron{
   height: 400px;
   color: white;
@@ -23,6 +52,20 @@ p{
   width:50%;
   margin: 20px;
   border: 5px double black;
+}
+
+.btntest{
+  margin-left: 45%;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.navbar-inverse{
+  margin-bottom: 0px;
+}
+
+.card h1{
+  text-align: center;
 }
 
 div.row.text-center{
