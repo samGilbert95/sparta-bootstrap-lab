@@ -1,14 +1,19 @@
+body{
+  background-color: lightgray;
+}
+
 p{
   margin:10%;
   margin-top: 20px;
 }
 
-.jumbo{
-  height: 200px;
-  border: 1px solid green;
+.jumbotron{
+  height: 400px;
+  color: white;
+  background-image: url("/images/jumboBack.jpeg");
 }
 .cards{
-  border: 1px solid red;
+  background-color: lightgray;
   display: flex;
 }
 
@@ -17,11 +22,7 @@ p{
   height:80%;
   width:50%;
   margin: 20px;
-  border: 1px solid pink;
-}
-
-.table{
-  border: 1px orange;
+  border: 5px double black;
 }
 
 div.row.text-center{
@@ -42,8 +43,8 @@ div.col-md-8.col-lg-8.col-sm-12{
 }
 
 img.img-circle{
-  max-height: 200px;
-  max-width: 200px;
+  height: 200px;
+  width: 200px;
   margin: auto;
   border: 20px double red;
   box-sizing: border-box;
@@ -54,17 +55,74 @@ nav.navbar.navbar-default{
 }
 
 div.tables{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 div.jumbotron{
   margin-bottom: 0px;
 }
 
+div.container{
+  text-align: center;
+}
+
+div.tables{
+  text-align: center;
+}
+
+th{
+  text-align: center;
+}
+
+.footer {
+	background-image: url("/images/footerBack.jpg");
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: white;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: white;
+}
+
+
 /* Mobile Specific */
 @media(max-width:767px){
   div.col-md-2.col-lg-2.col-sm-0.bg-1{
     display: none;
+  }
+
+  div.jumbotron{
+    height:200px;
   }
 
   a{
