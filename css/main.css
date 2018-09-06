@@ -1,0 +1,189 @@
+body{
+  background-color: lightgray;
+}
+
+p{
+  margin:10%;
+  margin-top: 20px;
+}
+
+form{
+  text-align: center;
+}
+
+input.form-control{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.list-group-item{
+  position: inherit;
+  height: 40px;
+  display: block;
+  background-color: #fff;
+  padding: 0px;
+  border: 0px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.badge{
+  margin: auto;
+}
+
+button.btn-success{
+  margin-bottom: 10px;
+}
+
+.jumbotron{
+  height: 400px;
+  color: white;
+  background-image: url("/images/jumboBack.jpeg");
+}
+.cards{
+  background-color: lightgray;
+  display: flex;
+}
+
+.card {
+  box-sizing: border-box;
+  height:80%;
+  width:50%;
+  margin: 20px;
+  border: 5px double black;
+}
+
+.btntest{
+  margin-left: 45%;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.navbar-inverse{
+  margin-bottom: 0px;
+}
+
+.card h1{
+  text-align: center;
+}
+
+div.row.text-center{
+  height: 100%;
+  width: 100%;
+  margin-left: 0px;
+}
+
+div.col-md-2.col-lg-2.col-sm-0.bg-1{
+  padding:0px;
+  height:100%;
+  background-color: lightgray;
+}
+
+div.col-md-8.col-lg-8.col-sm-12{
+  padding: 0px;
+  height:100%;
+}
+
+img.img-circle{
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border: 20px double red;
+  box-sizing: border-box;
+}
+
+nav.navbar.navbar-default{
+  margin-bottom: 0px;
+}
+
+div.tables{
+  margin-top: 0px;
+}
+
+div.jumbotron{
+  margin-bottom: 0px;
+}
+
+div.container{
+  text-align: center;
+}
+
+div.tables{
+  text-align: center;
+}
+
+th{
+  text-align: center;
+}
+
+.footer {
+	background-image: url("/images/footerBack.jpg");
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: white;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: white;
+}
+
+
+/* Mobile Specific */
+@media(max-width:767px){
+  div.col-md-2.col-lg-2.col-sm-0.bg-1{
+    display: none;
+  }
+
+  div.jumbotron{
+    height:200px;
+  }
+
+  a{
+    text-align: center;
+  }
+
+  div.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Tablet Specific */
+@media(min-width:768px) and (max-width:991px){
+  div.col-md-2.col-lg-2.col-sm-0.bg-1{
+    display: none;
+  }
+}
+ /* Whatfont */
